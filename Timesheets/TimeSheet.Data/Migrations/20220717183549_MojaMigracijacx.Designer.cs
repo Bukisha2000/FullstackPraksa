@@ -12,8 +12,8 @@ using TimeSheet.Data.Database;
 namespace TimeSheet.Data.Migrations
 {
     [DbContext(typeof(ApplicationContext))]
-    [Migration("20220706120757_FinalEverMigrationTwo")]
-    partial class FinalEverMigrationTwo
+    [Migration("20220717183549_MojaMigracijacx")]
+    partial class MojaMigracijacx
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -38,12 +38,20 @@ namespace TimeSheet.Data.Migrations
                     b.Property<int?>("CategoryEntityId")
                         .HasColumnType("int");
 
-                    b.Property<int>("CategoryID")
-                        .HasColumnType("int");
+                    b.Property<string>("CategoryName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ClientName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Description")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("EndDate")
+                        .HasColumnType("datetime2");
 
                     b.Property<DateTime>("ModifiedDate")
                         .HasColumnType("datetime2");
@@ -51,8 +59,16 @@ namespace TimeSheet.Data.Migrations
                     b.Property<double>("Overtime")
                         .HasColumnType("float");
 
-                    b.Property<int>("ProjectID")
-                        .HasColumnType("int");
+                    b.Property<string>("ProjectName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("StartDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("TeamMemberName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<double>("Time")
                         .HasColumnType("float");
@@ -109,8 +125,9 @@ namespace TimeSheet.Data.Migrations
                     b.Property<int?>("CountryEntityId")
                         .HasColumnType("int");
 
-                    b.Property<int>("CountryID")
-                        .HasColumnType("int");
+                    b.Property<string>("CountryID")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("ModifiedDate")
                         .HasColumnType("datetime2");
@@ -166,8 +183,9 @@ namespace TimeSheet.Data.Migrations
                     b.Property<int?>("ClientEntityId")
                         .HasColumnType("int");
 
-                    b.Property<int>("ClientID")
-                        .HasColumnType("int");
+                    b.Property<string>("ClientName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Description")
                         .IsRequired()
@@ -183,6 +201,9 @@ namespace TimeSheet.Data.Migrations
                     b.Property<string>("ProjectName")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("Status")
+                        .HasColumnType("bit");
 
                     b.HasKey("Id");
 

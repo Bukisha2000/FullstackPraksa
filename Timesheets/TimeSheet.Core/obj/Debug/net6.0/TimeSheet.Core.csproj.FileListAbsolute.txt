@@ -31,3 +31,13 @@ C:\Users\mihailo.bulat\Desktop\timesheet-master\Timesheets\TimeSheet.Core\obj\De
 C:\Users\mihailo.bulat\Desktop\timesheet-master\Timesheets\TimeSheet.Core\obj\Debug\net6.0\refint\TimeSheet.Core.dll
 C:\Users\mihailo.bulat\Desktop\timesheet-master\Timesheets\TimeSheet.Core\obj\Debug\net6.0\TimeSheet.Core.pdb
 C:\Users\mihailo.bulat\Desktop\timesheet-master\Timesheets\TimeSheet.Core\obj\Debug\net6.0\ref\TimeSheet.Core.dll
+C:\Users\bulat\Desktop\timesheet-master\TimeSheets\TimeSheet.Core\bin\Debug\net6.0\TimeSheet.Core.deps.json
+C:\Users\bulat\Desktop\timesheet-master\TimeSheets\TimeSheet.Core\bin\Debug\net6.0\TimeSheet.Core.dll
+C:\Users\bulat\Desktop\timesheet-master\TimeSheets\TimeSheet.Core\bin\Debug\net6.0\TimeSheet.Core.pdb
+C:\Users\bulat\Desktop\timesheet-master\TimeSheets\TimeSheet.Core\obj\Debug\net6.0\TimeSheet.Core.csproj.AssemblyReference.cache
+C:\Users\bulat\Desktop\timesheet-master\TimeSheets\TimeSheet.Core\obj\Debug\net6.0\TimeSheet.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bulat\Desktop\timesheet-master\TimeSheets\TimeSheet.Core\obj\Debug\net6.0\TimeSheet.Core.csproj.CoreCompileInputs.cache
+C:\Users\bulat\Desktop\timesheet-master\TimeSheets\TimeSheet.Core\obj\Debug\net6.0\TimeSheet.Core.dll
+C:\Users\bulat\Desktop\timesheet-master\TimeSheets\TimeSheet.Core\obj\Debug\net6.0\refint\TimeSheet.Core.dll
+C:\Users\bulat\Desktop\timesheet-master\TimeSheets\TimeSheet.Core\obj\Debug\net6.0\TimeSheet.Core.pdb
+C:\Users\bulat\Desktop\timesheet-master\TimeSheets\TimeSheet.Core\obj\Debug\net6.0\ref\TimeSheet.Core.dll
